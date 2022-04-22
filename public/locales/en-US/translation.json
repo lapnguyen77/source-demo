@@ -1,0 +1,55 @@
+{
+  "title": "English",
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "login-btn": "Login",
+    "remember-btn": "Remember me",
+    "forgot-btn": "Forgot password?",
+    "or": "Or",
+    "register-btn": "register now",
+    "message": {
+      "username-required": "Username is required",
+      "password-required": "Password is required",
+      "password-min-length": "At least 8 characters is required",
+      "invalid-credentials": "Invalid username or password"
+    }
+  },
+  "common": {
+    "code": "Code",
+    "name": "Name"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "system": {
+      "menu": "System",
+      "users": "Users",
+      "roles": "Roles",
+      "permissions": "Permissions"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome-msg": "Welcome to"
+  },
+  "notification": {
+    "errorTitle": "Error",
+    "successTitle": "Success",
+    "warningTitle": "Warning",
+    "infoTitle": "Warning",
+    "confirmTitle": "Confirm",
+    "addDone": "Add done",
+    "updateDone": "Update done",
+    "deleteDone": "Delete done"
+  },
+  "demoUI": {
+    "title": "Demo UI",
+    "titleAdd": "Thêm mới",
+    "titleEdit": "Sửa",
+    "demoFormUI": "Demo UI",
+    "demoFormUIComp": {
+      "formUIList": "Danh sách demo"
+    }
+  }
+}

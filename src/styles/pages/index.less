@@ -1,0 +1,466 @@
+// Font family main
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+// Common
+.color-w {
+  color: #fff;
+}
+
+.color-b {
+  color: #000;
+}
+
+.mg-r {
+  margin-right: @spacing-1;
+}
+
+.mg-l {
+  margin-left: @spacing-1;
+}
+
+.mg-b-15 {
+  margin-bottom: @spacing-15;
+}
+
+.m-b-0 {
+  margin-bottom: 0px !important;
+}
+
+.pad-l-r-10 {
+  padding: @spacing-0 @spacing-1;
+}
+
+.fw-b {
+  font-weight: 500;
+}
+
+.full-w {
+  width: 100%;
+}
+
+.a-center {
+  text-align: center;
+}
+
+.hover-dr-ms:hover {
+  cursor: pointer;
+}
+
+.title-header {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+// style of web app
+.ant-layout {
+  background-color: #fff;
+}
+
+.ant-btn {
+  min-width: 120px;
+}
+
+.card-ms {
+  background: rgb(255 255 255 / 77%);
+  box-shadow: @box-shadow-main;
+}
+
+.card-ms-form {
+  box-shadow: @box-shadow-main;
+  border-radius: @border-card;
+}
+
+.ant-card-body {
+  padding: @spacing-15;
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+  border-right: none;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+    border-right: 4px solid @a-color !important;
+}
+
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+  font-size: 16px;
+}
+
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item .anticon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .anticon,
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+  font-size: 18px;
+}
+
+.ant-menu-item-selected {
+  color: @a-color;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: @b-color;
+}
+
+.ant-space {
+  gap: 10px !important;
+}
+
+.ant-divider-horizontal {
+  margin: @spacing-15 0;
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+  margin: 5px 0;
+}
+
+.ant-layout-footer {
+  background-color: @bg-content-color;
+  font-weight: 500;
+}
+
+.ant-breadcrumb {
+  font-weight: 500;
+}
+
+.ant-form-item {
+  margin-bottom: @spacing-15;
+}
+
+.ant-item-btn {
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.ant-form-vertical .ant-form-item-label {
+  padding: 0;
+}
+
+.ant-form-item-label > label {
+  width: 100%;
+}
+.ant-input,
+.ant-picker,
+.ant-select-selector,
+.ant-dropdown-menu {
+  border-radius: 5px !important;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 5px @spacing-1;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: @spacing-15 0 0 0;
+}
+
+.ant-table-thead > tr > th {
+  background-color: @primary-color;
+  color: #fff;
+}
+
+// Profile
+.pro-header {
+  @media screen and (max-width: @screen-sm-max) {
+    padding: 4px 10px;
+    text-align: right;
+  }
+
+  .ant-avatar-lg {
+    @media screen and (max-width: @screen-sm-max) {
+      width: 32px !important;
+      height: 32px !important;
+    }
+  }
+}
+
+.my-pos-dr {
+  top: 46px !important;
+}
+
+.my-pos-dr.ant-dropdown-placement-bottomRight > .ant-dropdown-arrow {
+  right: 29px;
+}
+
+// Language
+.lang-header {
+  @media screen and (max-width: @screen-sm-max) {
+    display: none;
+  }
+}
+
+.my-lang-dr {
+  top: 46px !important;
+}
+
+.my-lang-dr.ant-dropdown-placement-bottomRight > .ant-dropdown-arrow {
+  right: 25px;
+}
+
+.dr-mn-lang .ant-dropdown-menu-title-content {
+  height: 20px;
+}
+
+.mn-item-sp .ant-space-item {
+  height: 20px;
+}
+
+.bg-item-menu {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-size: 100% 100%;
+}
+
+.vi-img {
+  background-image: url('~/src/images/flags/vi.png');
+}
+
+.en-img {
+  background-image: url('~/src/images/flags/en.png');
+}
+
+// Notification
+.noti-header {
+  @media screen and (max-width: @screen-sm-max) {
+    display: none;
+  }
+}
+
+.my-noti-dr {
+  top: 46px !important;
+}
+
+.my-noti-dr.ant-dropdown-placement-bottomRight > .ant-dropdown-arrow {
+  right: 10px;
+}
+
+// Button
+.btn-ms {
+  // border-radius: 10px;
+  font-weight: 500;
+  width: 120px;
+  box-shadow: @box-shadow-btn;
+}
+
+.btn-add-ms {
+  background-color: rgb(135, 208, 104);
+  color: #fff;
+  border: none !important;
+}
+
+.btn-add-ms:hover {
+  opacity: 0.8;
+  background-color: rgb(135, 208, 104);
+  color: #fff;
+}
+
+.btn-filter {
+  margin-left: @spacing-1;
+}
+
+//
+.filter-dash-ms {
+  width: calc(100% - 390px);
+}
+
+.filter-ms {
+  width: 100%;
+}
+
+.logo-main {
+  height: 64px;
+  padding: 16px;
+  background-image: url('~/src/images/logo.svg');
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.layout-ui-ms {
+  min-height: 100vh;
+  transition-duration: 0.2s;
+
+  @media screen and (max-width: @screen-sm-max) {
+    margin-left: 0 !important;
+  }
+}
+
+.main-layout-content {
+  padding: @spacing-15;
+  background-color: @bg-content-color;
+  border-radius: @border-card 0 0 0;
+
+  @media screen and (max-width: @screen-sm-max) {
+    border-radius: 0 !important;
+  }
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.layout-ui-ms .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+// Menu Desktop
+.main-sidebar {
+  background-color: #fff;
+  overflow: hidden;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+
+  @media screen and (max-width: @screen-sm-max) {
+    display: none;
+  }
+}
+
+.trigger-nav-desk {
+  @media screen and (max-width: @screen-sm-max) {
+    display: none;
+  }
+}
+
+// Menu mobile
+.navbar-mobile {
+  .ant-drawer-body {
+    padding: 0;
+  }
+
+  // @media screen and (min-width: @screen-sm-max) {
+  //   display: none;
+  // }
+}
+
+.trigger-nav-mob {
+
+  .btn-trigger {
+    @media screen and (max-width: @screen-sm-max) {
+      min-width: 64px !important;
+      font-size: 18px;
+      color: #000;
+    }
+  }
+
+  @media screen and (min-width: @screen-sm-max) {
+    display: none;
+  }
+}
+
+//
+.menu-ms {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 13px;
+
+  li {
+    .anticon {
+      padding: 5px;
+      background-color: @b-color;
+      color: @a-color;
+      border-radius: 5px;
+    }
+  } 
+
+  li:hover {
+    color: @a-color !important;
+  }
+
+  @media screen and (max-width: @screen-sm-max) {
+    margin-top: 0;
+  }
+}
+
+.menu-ms.ant-menu-inline-collapsed > .ant-menu-item {
+  position: relative;
+}
+
+.menu-ms.ant-menu-inline-collapsed {
+  .ant-menu-item-selected .anticon {
+    background-color: @b-color;
+  }
+
+  .ant-menu-submenu-selected .anticon {
+    background-color: @b-color;
+  }
+
+  .ant-menu-item:active,
+  .ant-menu-submenu-title:active {
+    background: #fff !important;
+  }
+
+  .anticon {
+    font-size: 26px !important;
+    background-color: #fff;
+    padding: 4px 5px !important;
+    line-height: 26px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: @a-color;
+    border-radius: 5px;
+  }
+}
+
+.menu-ms.ant-menu-inline-collapsed > .ant-menu-item,
+.menu-ms.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding: 0 16px !important;
+}
+
+.menu-ms.ant-menu-inline-collapsed:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fff;
+}
+
+//
+.header-info-s {
+  text-align: right;
+}
+
+.profile-ms {
+  top: 5px !important;
+  left: -12px !important;
+}
+
+.border-card {
+  border-radius: @border-card;
+}
+
+.txt-divider-ms {
+  font-weight: 500;
+  font-size: 16px;
+  color: @primary-color;
+}
+
+.icon-header {
+  padding: 3px 5px;
+  margin-right: @spacing-1;
+  background-color: @b-color;
+  color: @a-color;
+  border-radius: 5px;
+}

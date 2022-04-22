@@ -1,0 +1,55 @@
+{
+  "title": "Vietnamese",
+  "login": {
+    "title": "Đăng nhập",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "login-btn": "Đăng nhập",
+    "remember-btn": "Ghi nhớ đăng nhập",
+    "forgot-btn": "Quên mật khẩu?",
+    "or": "Hoặc",
+    "register-btn": "đăng ký ngay",
+    "message": {
+      "username-required": "Vui lòng nhập tên đăng nhập",
+      "password-required": "Vui lòng nhập mật khẩu",
+      "password-min-length": "Mật khẩu có ít nhất 8 ký tự",
+      "invalid-credentials": "Tên đăng nhập hoặc mật khẩu không đúng"
+    }
+  },
+  "common": {
+    "code": "Mã",
+    "name": "Tên"
+  },
+  "sidebar": {
+    "dashboard": "Bảng điều khiển",
+    "system": {
+      "menu": "Hệ thống",
+      "users": "Người dùng",
+      "roles": "Nhóm người dùng",
+      "permissions": "Quản lý quyền"
+    }
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "welcome-msg": "Chào mừng bạn tới"
+  },
+  "notification": {
+    "errorTitle": "Có lỗi xảy ra",
+    "successTitle": "Hoàn tất",
+    "warningTitle": "Cảnh báo",
+    "infoTitle": "Thông tin",
+    "confirmTitle": "Xác nhận",
+    "addDone": "Thêm mới thành công",
+    "updateDone": "Cập nhật thành công",
+    "deleteDone": "Xoá thành công"
+  },
+  "demoUI": {
+    "title": "Demo UI",
+    "titleAdd": "Thêm mới thông tin",
+    "titleEdit": "Sửa thông tin",
+    "demoFormUI": "Demo UI",
+    "demoFormUIComp": {
+      "formUIList": "Danh sách demo"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.login-content-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+
+.login-bg-left {
+  margin: 0;
+  flex-direction: row;
+  background-image: url('https://source.unsplash.com/random');
+  background-repeat: no-repeat;
+  background-color: #fafafa;
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (max-width: @screen-xs-max) {
+    display: none;
+  }
+}
+
+.login-form-wrapper {
+  min-width: 95%;
+  padding: 20px;
+}
+
+.login-form-wrapper .login-form {
+  max-width: 100%;
+
+  .ant-input-affix-wrapper {
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 85%) !important;
+  }
+}
+
+.login-form-wrapper .login-form-forgot {
+  float: right;
+}
+
+.login-form-wrapper .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.login-form-wrapper .login-form-button {
+  width: 100%;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: @box-shadow-btn;
+}
+
+.login-form {
+  font-weight: 500;
+}
+
+.avatar-login {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.title-login {
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+// [data-theme='compact'] .ant-advanced-search-form,
+// .ant-advanced-search-form {
+//   padding: 24px;
+//   background: #fbfbfb;
+//   border: 1px solid #d9d9d9;
+//   border-radius: 2px;
+// }
+
+// [data-theme='compact'] .ant-advanced-search-form .ant-form-item,
+// .ant-advanced-search-form .ant-form-item {
+//   display: flex;
+// }
+
+// [data-theme='compact'] .ant-advanced-search-form .ant-form-item-control-wrapper,
+// .ant-advanced-search-form .ant-form-item-control-wrapper {
+//   flex: 1;
+// }

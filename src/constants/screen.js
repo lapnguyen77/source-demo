@@ -1,0 +1,4 @@
+export const SCREEN_ORIENTATIONS = {
+  LANDSCAPE: 1,
+  PORTRAIT: 2,
+}
